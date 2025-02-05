@@ -1,16 +1,36 @@
-.nav-link{
-    display: inline-block;
-    box-sizing: border-box;
-    width: 60px;
-    padding: 5px;
-    margin: 0 6px 6px;
-    background: blue;
-    text-decoration: none;
-    text-align: center;
-    font-size: min(10vw, 15px) ;
-    color: white;
-}
+/* App Container */
+.app {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
   
-.active {
-    color: red;
-}
+  /* NavBar Styling */
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .navbar button:hover {
+    background-color: #555;
+  }
+  
+  /* Content Area Styling */
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
